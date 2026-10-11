@@ -1,0 +1,31 @@
+# dependências
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# build
+build/
+*.tsbuildinfo
+
+# banco local (SQLite)
+prisma/*.db
+prisma/*.db-journal
+
+# env
+.env
+.env*.local
+!.env.example
+
+# testes
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# logs e SO
+npm-debug.log*
+.DS_Store
+Thumbs.db
